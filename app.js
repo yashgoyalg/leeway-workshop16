@@ -12,7 +12,7 @@ makeApiCall()
     .then(response => {
         // console.log(JSON.stringify(response));
         console.log("Promise resolved: " + response);
-        console.log(response.data[2].title);
+        console.log(response.data[2]);
 
         //******** */
         // response.data.map(postuser =>{
